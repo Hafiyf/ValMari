@@ -1,0 +1,64 @@
+@import 'defaults';
+
+.achivments__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 76px 123px;
+
+    background: #ECF9EB;
+}
+
+.achivments__heading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 40px;
+
+    margin-bottom: 70px;
+
+    color: $color-green;
+}
+
+.achivments__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 54px 63.64px;
+
+    background: $color-white;
+
+    box-shadow: -1px 1px 2px rgba(67, 70, 74, 0.0001), -2px 2px 5px rgba(67, 86, 100, 0.123689);
+    border-radius: 4px;
+
+
+    .achivments__item {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.ach__num {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 45px;
+
+    margin-bottom: 18.83px;
+
+    color: $color-green;
+}
+
+.ach__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    display: flex;
+    flex-wrap: wrap;
+
+    color: $color-dark;
+}
